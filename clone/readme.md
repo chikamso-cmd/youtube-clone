@@ -1,68 +1,12 @@
-    <ul class="library">
-            <span class="material-symbols-outlined">graphic_eq</span>
-            <li><a href="#">music</a></li>
-        </ul>
-
-     <ul class="library">
-            <span class="material-symbols-outlined">sports_basketball</span>
-        <li><a href="#">sports</a></li>
-        </ul>
-
-        <ul class="library">
-            <span class="material-symbols-outlined">sports_esports</span>
-            <li><a href="#">gaming</a></li>
-        </ul>
-        <ul class="library">
-            <span class="material-symbols-outlined">movie</span>
-            <li><a href="#">films</a></li>
-        </ul>
-        <ul class="library">
-            <span class="material-symbols-outlined">tv</span>
-            <li><a href="#">tv shows</a></li>
-        </ul>
-        <ul class="library">
-            <span class="material-symbols-outlined">newsmode</span>
-            <li><a href="#">news</a></li>
-        </ul>
-        <ul class="library">
-            <span class="material-symbols-outlined">sensors</span>
-            <li><a href="#">live</a></li>
-        </ul>
-
-
-
-
-
-
-
-
-
-.library-link{
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.library-link h1{
-    font-size: 20px;
-    color: var(--almost-black);
-    margin-bottom: 15px;
-}
-.library{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.library li span {
-    margin-right: 10px;
-    position: relative;
-    align-items: center;
-    vertical-align: middle;
-}
-.library li a{
-    color: var(--medium-gray);
-    font-size: 15px;
-    text-transform: capitalize;
-}
+<!-- video cards will go here -->
+             <!-- <div class="video-card">
+              <span>5:44</span>
+  <img src="/clone/assets/1600w-vGSnQGShz3c.webp" alt="Justin Timberlake – Filthy" class="thumbnail" />
+  <div class="video-info">
+    <img src="https://yt3.ggpht.com/ytc/AKedOLQZzQeYvZkQdZzZzZzZzZzZzZzZzZzZzZz=s88-c-k-c0x00ffffff-no-rj" alt="Channel Avatar" class="avatar" />
+    <div class="details">
+      <h4 class="title">Justin Timberlake – Filthy (Official Video)</h4>
+      <p class="channel">Justin Timberlake</p>
+      <p class="meta">35M views • 5 years ago</p>
+    </div>
+  </div> -->
