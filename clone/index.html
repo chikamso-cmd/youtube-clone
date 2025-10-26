@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simplified clone of the YouTube homepage layout."
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>YouTube Homepage Mockup</title>
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- material material symbol link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <!-- google font link -->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- * my css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+<!-- * content starts here -->
+    <div class="container mx-auto p-0">
+      <header class="head-links container">
+        <div class="left-head">
+          <span class="material-symbols-outlined" id="menuToggle">menu</span>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+            alt="YouTube Logo"
+            class="logo"
+          />
+        </div>
+        <div class="middle-head">
+          <span class="material-symbols-outlined">search</span>
+          <input type="search" name="search" id="search" placeholder="search" />
+        </div>
+        <div class="right-head">
+          <span class="material-symbols-outlined">chat</span>
+          <p class="notification">2</p>
+          <span class="material-symbols-outlined">notifications</span>
+          <img
+            src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png"
+            alt="User Profile"
+            class="profile-pic"
+          />
+          <span class="line"></span>
+          <div class="upload">
+            <span class="material-symbols-outlined">arrow_upward_alt</span>
+            <span class="up-text">upload</span>
+          </div>
+        </div>
+      </header>
+      <!-- ! this container is delicate still working on how to solve this later on -->
+      <div class="container d-flex gap-4 p-0">
+        <aside class="sidebar">
+        <ul>
+          <div class="home-link">
+            <div class="active-link">
+              <span class="material-symbols-outlined">home</span>
+              <li class="active"><a href="#">Home</a></li>
+            </div>
+            <div class="explore-link">
+              <span class="material-symbols-outlined">bar_chart</span>
+              <li><a href="#">Trending</a></li>
+            </div>
+            <div class="subscription-link">
+              <span class="material-symbols-outlined">bookmark</span>
+              <li><a href="#">Subscriptions</a></li>
+            </div>
+          </div>
+
+          <!-- *library tags for the history, watch later, liked videos etc -->
+          <div class="library-link">
+            <h1>LIBRARY</h1>
+            <div class="library">
+              <li>
+                <span class="material-symbols-outlined">video_library</span>
+                <a href="#">history</a>
+              </li>
+            </div>
+            <div class="library">
+              <li>
+                <span class="material-symbols-outlined">schedule</span>
+                <a href="#">watch later</a>
+              </li>
+            </div>
+            <div class="library">
+              <li>
+                <span class="material-symbols-outlined">thumb_up</span>
+                <a href="#">liked videos</a>
+              </li>
+            </div>
+            <div class="library">
+              <li>
+                <span class="material-symbols-outlined">point_scan</span>
+                <a href="#">show more</a>
+              </li>
+            </div>
+          </div>
+
+          <div class="bottom">
+            <h1 style="fw-bold; margin-top: 20px; margin-bottom: 17px;">BEST OF YOUTUBE</h1>
+           
+           <div class="library">
+              <li>
+                <span class="material-symbols-outlined">graphic_eq</span>
+                <a href="#">Music</a>
+              </li>
+            </div>
+           <div class="library">
+              <li>
+                <span class="material-symbols-outlined">sports_basketball</span>
+                <a href="#">Sport</a>
+              </li>
+            </div>
+           <div class="library">
+              <li>
+                <span class="material-symbols-outlined">sports_esports</span>
+                <a href="#">Gaming</a>
+              </li>
+            </div>
+           <div class="library">
+              <li>
+                <span class="material-symbols-outlined">movie</span>
+                <a href="#">Films</a>
+              </li>
+            </div>
+           <div class="library">
+              <li>
+                <span class="material-symbols-outlined">tv</span>
+                <a href="#">Tv Shows</a>
+              </li>
+            </div>
+           <div class="library">
+              <li>
+                <span class="material-symbols-outlined">newsmode</span>
+                <a href="#">News</a>
+              </li>
+          </div>
+
+          <div class="library">
+              <li>
+                <span class="material-symbols-outlined">sensors</span>
+                <a href="#">Live</a>
+              </li>
+            </div> 
+        </ul>
+      </aside>
+
+      <main class="content">
+        <section class="recommended">
+          <div class="recommend">
+        <h1>Recommended</h1>
+          <div class="arrows">
+            <span class="material-symbols-outlined">arrow_left_alt</span>
+            <span class="material-symbols-outlined">arrow_right_alt</span>
+          </div>
+          </div>
+          <div class="video-container">
+            <!-- video cards will go here -->
+             <!-- <div class="video-card">
+              <span>5:44</span>
+  <img src="/clone/assets/1600w-vGSnQGShz3c.webp" alt="Justin Timberlake – Filthy" class="thumbnail" />
+  <div class="video-info">
+    <img src="https://yt3.ggpht.com/ytc/AKedOLQZzQeYvZkQdZzZzZzZzZzZzZzZzZzZzZz=s88-c-k-c0x00ffffff-no-rj" alt="Channel Avatar" class="avatar" />
+    <div class="details">
+      <h4 class="title">Justin Timberlake – Filthy (Official Video)</h4>
+      <p class="channel">Justin Timberlake</p>
+      <p class="meta">35M views • 5 years ago</p>
+    </div>
+  </div> -->
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+</div>
+             
+
+
+
+          </div>
+             
+        </section>
+
+        <section class="creator"></section>
+
+        <section class="popular"></section>
+      </main>
+      </div>
+    </div>
+
+    <!-- bootstrap js link -->
+     <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
